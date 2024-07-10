@@ -3,9 +3,10 @@ package coid.juaracoding.pcmcobacoba.preparation;
 public class OutputParameter {
 
     public static void main(String[] args) {
-//        System.out.println("ARGS index ke 0 -> "+args[0]);
-//        System.out.println("ARGS index ke 1 -> "+args[1]);
-//        System.out.println("ARGS index ke 2 -> "+args[2]);
+        System.out.println("ARGS index ke 0 -> "+args[0]);
+        System.out.println("ARGS index ke 1 -> "+args[1]);
+        System.out.println("ARGS index ke 2 -> "+args[2]);
+
         String strAlamatServer = "https://dev.juaracoding.com";//HARDCODE
 //        String strAlamatServer = args[0];
 

@@ -13,10 +13,10 @@ public class ApaKek {
         System.out.println("nilai cobaan saat ini "+cobaan);//40
         System.out.println("nilai cobaan1 saat ini "+cobaan1);//10
         /*
-        nilai cobaan saat ini Cobaan@f6f4d33
-nilai cobaan1 saat ini Cobaan@f6f4d33
-nilai cobaan saat ini Cobaan@f6f4d33
-nilai cobaan1 saat ini Cobaan@23fc625e
+            nilai cobaan saat ini Cobaan@f6f4d33
+            nilai cobaan1 saat ini Cobaan@f6f4d33
+            nilai cobaan saat ini Cobaan@f6f4d33
+            nilai cobaan1 saat ini Cobaan@23fc625e
          */
     }
 }

@@ -12,9 +12,7 @@ public class Baroe {
         double myVal = 5 + 4 % 3 - 8 * 3 / 4;
         System.out.println(myVal);
         int intA = 5;
-
 //        if(intA>=47 && intA<=58){
-//
 //        }
 //        System.out.println(intA);
         System.out.println(!(intA>=47 && intA<=58));

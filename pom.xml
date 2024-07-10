@@ -14,7 +14,7 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <!--    Pastikan java -version dan mvn -version itu harus sama versi nya -->
+    <!--    Pastikan java version saat menulis command java -version dan mvn -version di cmd itu harus sama versi nya -->
     <!--    command buat run maven -> mvn clean compile assembly:single-->
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->

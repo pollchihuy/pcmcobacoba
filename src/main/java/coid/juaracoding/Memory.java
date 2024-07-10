@@ -57,7 +57,7 @@ public class Memory {
 //            throw new RuntimeException(e);
 //        }
 
-//        l.clear();
+        l.clear();
 
         for (int i = 0; i < 100000; i++) {
             User u = new User();

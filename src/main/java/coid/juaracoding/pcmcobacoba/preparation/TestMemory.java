@@ -45,6 +45,15 @@ public class TestMemory {
             System.out.println(j);  //print j  
             main(new String[] { (args[0] + args[0]).intern() });
         }
+        //    sBuild.setLength(0);
+//    //before
+//        System.out.println("\n==BEFORE==");
+//        for (String num:nums)
+//    {
+//        bef = sBuild.append(num).append(",").toString();
+//    }
+//
+//        System.out.print(bef.substring(0,bef.length()-1));
 //        try {
 //			Thread.sleep(1000);
 //		} catch (InterruptedException e) {
