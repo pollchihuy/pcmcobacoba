@@ -9,10 +9,11 @@ Created on Tue 21:49
 @Last Modified Tue 21:49
 Version 1.0
 */
-public class ClassChildTwo extends ClassParent{
+//public class ClassChildTwo extends ClassChild{
+public class ClassChildTwo {
 
 
-    public void panggil(){
-        methodTwo();
-    }
+   public void terima(){
+       System.out.println("Method terima class child two");
+   }    
 }

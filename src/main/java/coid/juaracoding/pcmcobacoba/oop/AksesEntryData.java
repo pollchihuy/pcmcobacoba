@@ -16,8 +16,9 @@ Version 1.0
 public class AksesEntryData {
 
     public static void main(String[] args) {
-        LoginPage loginPage = new LoginPage();
-        HomePage homePage = new HomePage();
-        AksesPage aksesPage = new AksesPage();
+//        LoginPage loginPage = new LoginPage();
+//        HomePage homePage = new HomePage();
+//        AksesPage aksesPage = new AksesPage();
+        System.out.println();
     }
 }

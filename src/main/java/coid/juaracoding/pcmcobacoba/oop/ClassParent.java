@@ -12,11 +12,37 @@ Version 1.0
 public class ClassParent {
 
 
-    public void methodOne(){
+    public final static double jariJari = 3.14;
 
+    private String nama;
+    public String alamat;
+
+    public ClassParent() {
+        System.out.println("Constructor Parent");
     }
 
-    void methodTwo(){
+    public void methodOne(){
 
+        System.out.println("Ini Method One dari Class Parent");
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public void methodTwo(){
+        System.out.println("Ini Method Two dari Class Parent");
+    }
+
+    public void methodHidden(){
+        System.out.println("Ini Method Hidden dari Class Parent");
+    }
+
+    public void methodHiddenTwo(){
+        System.out.println("Ini Method Hidden dari Class Parent");
     }
 }

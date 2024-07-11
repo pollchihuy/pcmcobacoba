@@ -38,7 +38,6 @@ public class Panggil {
 //        config.setHostApps("https://gak-aman.com");
 
         System.out.println();
-        System.out.println();
         System.out.println("Menggunakan Browser : "+config.getBrowser());
         System.out.println("URL "+config.getHostApps());
         System.out.println("Path Folder : "+config.getPathDownload());
@@ -59,7 +58,5 @@ public class Panggil {
         iface1.sisipkanData();
         iface1.deleteData();
         iface1.modifikasiData();
-
-
     }
 }
