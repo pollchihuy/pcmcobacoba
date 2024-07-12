@@ -13,7 +13,15 @@ public class CobaZ {
 
     public static void main(String[] args) {
 //while(variable)
-        int intX = 1/0;
+
+        try {
+            int intX = 1/0;
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+            // send email ....
+            System.exit(0);
+        }
+        System.out.println("Masuk sini");
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.println("Input Untuk Hari ===weekday=== \n 1 = Senin\n 2 = Selasa \n 3 = Rabu \n ===weekend=== 4 = Jumat \n 5 = Sabtu  \n 6 = minggu");
 //        System.out.print("Masukkan Hari : ");

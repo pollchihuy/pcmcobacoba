@@ -22,7 +22,7 @@ public class TestOperatorLogika {
         operatorLogika = new OperatorLogika();
     }
 
-    @Test
+    @Test(priority = 1)
     public void testAnd(){
         boolean isValid = operatorLogika.logikaAnd(true,true);
         /**
@@ -35,7 +35,7 @@ public class TestOperatorLogika {
         Assert.assertTrue(isValid);
     }
 
-    @Test
+    @Test(priority = 2)
     public void testOr(){
         boolean isValid = operatorLogika.logikaOr(false,false);
         Assert.assertFalse(isValid);

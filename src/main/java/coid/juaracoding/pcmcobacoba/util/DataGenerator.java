@@ -194,6 +194,14 @@ public class DataGenerator {
         return kodepos;
     }
 
+    public String datakata() {
+        isValid = false;
+        intLoop = 0;
+        String kodepos   = "";
+        kodepos = faker.food().fruit();
+        return kodepos;
+    }
+
     public String dataTanggalLahir() {
         isValid = false;
         intLoop = 0;

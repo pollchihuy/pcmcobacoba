@@ -10,11 +10,18 @@ Created on Wed 22:53
 Version 1.0
 */
 
+import coid.juaracoding.pcmcobacoba.util.DataGenerator;
+
 public class Baruh {
 
     public static void main(String[] args) {
-        int jariJari = 4;
-        double luas = 3.14*jariJari*jariJari;
-        System.out.println("Luas Lingkaran adalah : " + luas +" cm");
+//        int jariJari = 4;
+//        double luas = 3.14*jariJari*jariJari;
+//        System.out.println("Luas Lingkaran adalah : " + luas +" cm");
+
+        DataGenerator dataGenerator = new DataGenerator();
+        for (int i = 0; i < 100; i++) {
+            System.out.println(dataGenerator.datakata());
+        }
     }
 }
